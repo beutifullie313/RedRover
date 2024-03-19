@@ -6,13 +6,13 @@ public class Apartment {
         // this is a schema of future objects = class
         int bedrooms;
         Address address;
-        int price;
+        int price1;
         int area;
 
         String getInfoCard() {
                 String result =
                 "\n___________" +
-                        "\nPrice: " + price +
+                        "\nPrice: " + price1 +
                         "\nBedrooms: " + bedrooms +
                         "\nCity: " + address.city +
                         "\nState: " + address.state +
